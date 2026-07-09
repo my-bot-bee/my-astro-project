@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.astro/
+.env
+.env.*
+npm-debug.log*
+备份文件/
+林宗信-简历-会计师事务所版v2.pdf
