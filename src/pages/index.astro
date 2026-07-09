@@ -149,7 +149,7 @@ const skills = [
 
       <section class="hero section-shell" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="eyebrow">审计经理 / 财务经理 · 隐私保护展示版</p>
+          <p class="eyebrow">审计经理 / 财务经理</p>
           <h1 id="hero-title">8年+审计工作经验，CPA 、税务师、资产评估师、法律职业资格、高级会计师五证俱全</h1>
           <p class="hero-summary">
             我是林宗信，福州大学 211 硕士，CPA 持证。长期从事财务及审计工作，
@@ -238,7 +238,7 @@ const skills = [
           <h2 id="experience-title">工作经历</h2>
         </div>
         <div class="timeline">
-          {experience.map((job) => (
+          {experience.slice(0, 1).map((job) => (
             <article class="timeline-item">
               <p class="period">{job.period}</p>
               <div>
@@ -304,5 +304,6 @@ const skills = [
     </footer>
   </body>
 </html>
+
 
 
